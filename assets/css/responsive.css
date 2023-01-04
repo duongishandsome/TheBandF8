@@ -1,0 +1,52 @@
+@media (max-width: 740px) {
+    .s-col-full,
+    .s-full-with {
+        width: 100%;
+    } 
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    
+    #nav {
+        display: block;
+    }
+    
+    #nav > li {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 2px 33px;
+    }
+
+    #nav > li:hover > a {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-icon {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    .contact-input {
+        margin-top: 16px;
+    }
+}
